@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "saas-landing-page-bfftt2-backend",
+      "script": "/root/clawd-backend/scripts/backend-sandbox.sh",
+      "args": "/root/dreampilot/dreampilotvenv /workspaces/user_24/website/1815_saas-landing-page_20260723_161035/backend 8012",
+      "cwd": "/workspaces/user_24/website/1815_saas-landing-page_20260723_161035/backend",
+      "interpreter": "/bin/bash",
+      "instances": 1,
+      "exec_mode": "fork",
+      "watch": false,
+      "max_memory_restart": "900M",
+      "env": {
+        "PORT": "8012",
+        "BACKEND_HOST": "0.0.0.0",
+        "BACKEND_PORT": "8012",
+        "PROJECT_NAME": "saas-landing-page-bfftt2",
+        "DATABASE_URL": "postgresql://saas_landing_page_bfftt2_user:H62iUnfArheLc3vOJmruvSBTnSb6wSgV@localhost:5432/saas_landing_page_bfftt2_db"
+      }
+    }
+  ]
+}
